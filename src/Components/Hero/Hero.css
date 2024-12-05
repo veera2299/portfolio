@@ -106,3 +106,11 @@
         border-radius: 40px;
     }
 }
+
+@media (max-width:425px) {
+    .hero-resume{
+        padding: 0;
+        border-radius: 40px;
+    }
+    
+}

@@ -99,3 +99,12 @@
     }
 
 }
+
+@media (max-width:425px) {
+    .footer{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
