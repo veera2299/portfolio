@@ -8,13 +8,13 @@ const MyWork = () => {
   return (
     <div id='work' className='mywork'> 
       <div className="mywork-title">
-        <h1>My latest work</h1>
+        <h1>Projects</h1>
         <img src={theme_pattern} alt="" />
       </div>
       <div className="mywork-container">
         {mywork_data.map((work,index)=>{
-          return <img key={index} src={work.w_img} alt="" />
-        })}
+          return <a href={work.link}><img key={index} src={work.w_img} alt="" /></a>
+        })} 
       </div>
       <div className="mywork-showmore">
         <p>Show More</p>
