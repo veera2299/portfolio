@@ -4,11 +4,13 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 80px 270px;
 }
 
 .services-title {
     position: relative;
+    justify-self: center;
+    align-self: center;
 }
 
 .services-title h1 {
@@ -81,26 +83,32 @@
 @media (max-width:1280px) {
 
     .services-title h1 {
-        font-size: 60px;
+        font-size: 40px;
         font-weight: 500;
+    }
+    .services-title img {
+        width: 150px;
+        position: absolute;
+        right: 0;
+        z-index: -1;
     }
 
     .services-format {
         gap: 10px;
-        padding: 30px;
+        padding: 20px;
     }
 
     .services-format h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .services-format h2 {
-        font-size: 32px;
+        font-size: 26px;
     }
 
     .services-format p {
-        font-size: 18px;
-        line-height: 25px;
+        font-size: 14px;
+        line-height: 22px;
     }
 }
 
@@ -164,8 +172,8 @@
 
     .services-title img {
         width: 120px;
-        top: 15px;
-        left: 110px;
+        top: 10px;
+        left: 100px;
     }
 
     .services-format {

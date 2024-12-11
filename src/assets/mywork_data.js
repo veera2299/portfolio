@@ -14,7 +14,7 @@ const mywork_data = [
     },
     {
         w_no:2,
-        w_name:"Ecommerce",
+        w_name:"V2 Shopper",
         w_img:project2_img,
         link:"https://ecommerce-frontend-utt4.onrender.com"
     },
@@ -38,7 +38,7 @@ const mywork_data = [
     },
     {
         w_no:6,
-        w_name:"Cart",
+        w_name:"Dessert Cart",
         w_img:project6_img,
         link:"https://cartfunction.vercel.app/"
     },

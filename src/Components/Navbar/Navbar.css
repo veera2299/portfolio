@@ -1,3 +1,9 @@
+.navbar-container{
+    width: 100%;
+    position:fixed;
+    background-color: #161513;
+    z-index: 999;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -61,15 +67,19 @@
     .navbar {
         margin: 20px 50px;
     }
-
     .nav-menu {
         gap: 50px;
+        font-size: 18px;
     }
 
     .nav-connect {
-        padding: 18px 30px;
-        font-size: 18px;
+        padding: 15px 25px;
+        font-size: 16px;
     }
+    .navbar-logo {
+        width: 50px;
+    }
+    
 }
 
 @media (max-width:1100px) {

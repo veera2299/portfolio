@@ -24,8 +24,7 @@ const Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
-      alert(result)
+      alert("Form Submitted Successfully");
       event.target.reset();
     } else {
       console.log("Error", data);
@@ -42,28 +41,28 @@ const Contact = () => {
       </div>
       <div className="contact-section">
         <div className="contact-left">
-            <h1>Let's talk</h1>
-            <p>I'm currently available to take on new projects, so feel free to send me a message about anything that you want to work on. You can contact anytime.</p>
-            <div className="contact-details">
-                <div className="contact-detail">
-                    <img src={mail_icon} alt="" /><p>penkeyveerababu229@gmail.com</p>
-                </div>
-                <div className="contact-detail">
-                    <img src={call_icon} alt="" /> <p>+91 9542303831</p>
-                </div>
-                <div className="contact-detail">
-                    <img src={location_icon} alt="" /> <p>Kakinada, Andhra pradesh, India</p>
-                </div>
+          <h1>Let's talk</h1>
+          <p>I'm currently available to take on new projects, so feel free to send me a message about anything that you want to work on. You can contact anytime.</p>
+          <div className="contact-details">
+            <div className="contact-detail">
+              <img src={mail_icon} alt="" /><p>penkeyveerababu229@gmail.com</p>
             </div>
+            <div className="contact-detail">
+              <img src={call_icon} alt="" /> <p>+91 9542303831</p>
+            </div>
+            <div className="contact-detail">
+              <img src={location_icon} alt="" /> <p>Kakinada, Andhra pradesh, India</p>
+            </div>
+          </div>
         </div>
         <form onSubmit={onSubmit} className="contact-right">
-            <label htmlFor="">Your Name</label>
-            <input type="text" required placeholder='Enter your name' name='name' />
-            <label htmlFor="">Your Email</label>
-            <input type="email" required placeholder='Enter your email' name='email' />
-            <label htmlFor="">write your message here</label>
-            <textarea name="message" required rows='8' placeholder='Enter your message' ></textarea>
-            <button type='submit' className='contact-submit'>Submit</button>
+          <label htmlFor="">Your Name</label>
+          <input type="text" required placeholder='Enter your name' name='name' />
+          <label htmlFor="">Your Email</label>
+          <input type="email" required placeholder='Enter your email' name='email' />
+          <label htmlFor="">write your message here</label>
+          <textarea name="message" required rows='8' placeholder='Enter your message' ></textarea>
+          <button type='submit' className='contact-submit'>Submit</button>
         </form >
       </div>
     </div>
