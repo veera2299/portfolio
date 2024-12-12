@@ -61,6 +61,10 @@
 .contact-icons img{
     width: 50px;
     cursor: pointer;
+    transition: 0.3s;
+}
+.contact-icons img:hover{
+transform: scale(1.06);
 }
 .contact-detail{
     display: flex;
