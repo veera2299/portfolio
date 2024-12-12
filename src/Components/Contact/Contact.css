@@ -52,6 +52,16 @@
     color: #D8D8D8;
     font-size: 22px;
 }
+.contact-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.contact-icons img{
+    width: 50px;
+    cursor: pointer;
+}
 .contact-detail{
     display: flex;
     align-items: center;

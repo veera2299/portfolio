@@ -44,6 +44,10 @@ const Contact = () => {
           <h1>Let's talk</h1>
           <p>I'm currently available to take on new projects, so feel free to send me a message about anything that you want to work on. You can contact anytime.</p>
           <div className="contact-details">
+            <div className="contact-icons">
+           <a href="https://www.linkedin.com/in/veerababu-p-336403324/"> <img src="https://img.icons8.com/?size=100&id=kBCrQMzpQDLQ&format=png&color=000000" /></a>
+            <a href="https://github.com/veera2299"><img src="https://img.icons8.com/?size=100&id=63777&format=png&color=000000" alt="" /></a>
+            </div>
             <div className="contact-detail">
               <img src={mail_icon} alt="" /><p>penkeyveerababu229@gmail.com</p>
             </div>
