@@ -17,11 +17,9 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>A skilled and motivated full-stack developer with strong expertise in React,
-              JavaScript, Node.js, Express.js, and MongoDB. I have worked on projects such as
-              online food delivery and e-commerce applications, which gained visibility through social media.
-              I have also completed challenges on Flexbox, Grid, and React state management on Frontend Mentor.
-              Additionally, I have solved over 30 JavaScript-related problems on LeetCode.</p>
+            <p>I am a Full-Stack Developer specializing in React, Node.js,
+               and modern UI frameworks. My portfolio includes robust projects such as online food delivery and e-commerce platforms. Currently, I am applying my skills to build the frontend of a comprehensive live-streaming website. The project, which already has a completed backend,
+               allows users to schedule streams and showcases event imagery through custom CSS animations.</p>
             <p>I have completed a total of six projects: two full-stack projects,
               two using Tailwind CSS and React.js, and two as part of Frontend Mentor challenges.
             </p>
