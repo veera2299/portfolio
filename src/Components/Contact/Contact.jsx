@@ -49,7 +49,7 @@ const Contact = () => {
             <a href="https://github.com/veera2299"><img src="https://img.icons8.com/?size=100&id=63777&format=png&color=000000" alt="" /></a>
             </div>
             <div className="contact-detail">
-              <img src={mail_icon} alt="" /><p>penkeyveerababu229@gmail.com</p>
+              <img src={mail_icon} alt="" /><p>v2developer02@gmail.com</p>
             </div>
             <div className="contact-detail">
               <img src={call_icon} alt="" /> <p>+91 9542303831</p>
